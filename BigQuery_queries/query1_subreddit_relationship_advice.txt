@@ -1,0 +1,1 @@
+SELECT title,author,subreddit, created_utc FROM [fh-bigquery:reddit_comments.2006] WHERE (subreddit = 'relationship_advice') AND (REGEXP_MATCH(title,r'(me|Me|I|My|my|myself|Myself)\s?(\(|\[)'))
