@@ -1,2 +1,2 @@
-# reddit_text_classification
+# Inferring demographics of reddit users
 Master thesis project. Predicting gender of reddit users based on their comments. (Work in progress)
