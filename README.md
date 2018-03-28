@@ -3,6 +3,8 @@ Master thesis project. Predicting gender of reddit users based on their comments
 
 **BigQuery_queries**  folder contains examples of queries that were used to extract demographic information about Reddit users.
 
+**data** folder contains the list of words with corresponding logistic regression weights and the list of users with demographic labels.
+
 **text2gender** contains the pre-trained models that produce probability between 0 and 1, where 1 is a female user and 0 is male user.
 
 ## Example of usage:
