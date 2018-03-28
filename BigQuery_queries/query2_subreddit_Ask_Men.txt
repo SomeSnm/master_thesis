@@ -1,1 +1,3 @@
-SELECT author, link_id, parent_id, subreddit, author_flair_text, author_flair_css_class FROM [fh-bigquery:reddit_comments.2006] WHERE subreddit = 'AskMen' OMIT RECORD IF author_flair_css_class = "" 
+SELECT author, author_flair_css_class FROM [fh-bigquery:reddit_comments.2011] 
+WHERE subreddit = 'AskMen' OMIT RECORD IF author_flair_css_class = "" 
+GROUP BY author, author_flair_css_class
